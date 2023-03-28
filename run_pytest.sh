@@ -2,7 +2,7 @@
 
 set -e
 
-python -m pytest \
+python3 -m pytest \
 --cov=dolly \
 --cov-report=html \
 --cov-report=term \
